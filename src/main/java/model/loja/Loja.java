@@ -1,4 +1,7 @@
-package model;
+package model.loja;
+
+import model.Data;
+import model.Endereco;
 
 public class Loja {
     private String nome;

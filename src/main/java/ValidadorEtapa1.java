@@ -1,6 +1,6 @@
 import model.Data;
 import model.Endereco;
-import model.Loja;
+import model.loja.Loja;
 import model.Produto;
 
 public class ValidadorEtapa1 {

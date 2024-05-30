@@ -1,5 +1,6 @@
 package model;
 
+import model.loja.Loja;
 import org.junit.Assert;
 import org.junit.Test;
 
