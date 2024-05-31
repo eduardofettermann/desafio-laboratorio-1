@@ -26,6 +26,11 @@ public class Bijuteria extends Loja {
         this.metaVendas = metaVendas;
     }
 
+    public Bijuteria(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco, Data dataFundacao, int quantidadeMaximaDeProdutos, double metaVendas) {
+        super(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereco, dataFundacao, quantidadeMaximaDeProdutos);
+        this.metaVendas = metaVendas;
+    }
+
     @Override
     public String toString() {
         return "Bijuteria{" +

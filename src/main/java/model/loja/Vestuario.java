@@ -26,6 +26,11 @@ public class Vestuario extends Loja {
         this.produtosImportados = produtosImportados;
     }
 
+    public Vestuario(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco, Data dataFundacao, boolean produtosImportados,int quantidadeMaximaDeProdutos) {
+        super(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereco, dataFundacao, quantidadeMaximaDeProdutos);
+        this.produtosImportados = produtosImportados;
+    }
+
     @Override
     public String toString() {
         return "Vestuario{" +

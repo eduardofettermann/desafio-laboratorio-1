@@ -26,6 +26,11 @@ public class Cosmetico extends Loja {
         this.taxaComercializacao = taxaComercializacao;
     }
 
+    public Cosmetico(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco, Data dataFundacao, int quantidadeMaximaDeProdutos, double taxaComercializacao) {
+        super(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereco, dataFundacao, quantidadeMaximaDeProdutos);
+        this.taxaComercializacao = taxaComercializacao;
+    }
+
     @Override
     public String toString() {
         return "Cosmetico{" +

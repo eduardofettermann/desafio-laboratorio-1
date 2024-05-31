@@ -26,6 +26,11 @@ public class Informatica extends Loja {
         this.seguroEletronicos = seguroEletronicos;
     }
 
+    public Informatica(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco, Data dataFundacao, int quantidadeMaximaDeProdutos, double seguroEletronicos) {
+        super(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereco, dataFundacao, quantidadeMaximaDeProdutos);
+        this.seguroEletronicos = seguroEletronicos;
+    }
+
     @Override
     public String toString() {
         return "Informatica{" +
